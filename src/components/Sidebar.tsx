@@ -1,6 +1,6 @@
 import React from 'react';
 import { Home, Map, MessageCircle, GraduationCap, Github, Linkedin, Code2, X } from 'lucide-react';
-import NavLink from './NavLink';
+import NavLink from './Navlink';
 import ProfileDropdown from './ProfileDropdown';
 
 interface SidebarProps {

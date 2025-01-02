@@ -4,6 +4,7 @@ import { ProtectedRoute } from './components/ProtectedRoute';
 import { Layout } from './components/Layout';
 import { Login } from './pages/Login';
 import { Dashboard } from './pages/Dashboard';
+import UserHome from './pages/Userhome';
 
 function App() {
   return (
@@ -12,11 +13,11 @@ function App() {
         <Routes>
           <Route path="/login" element={<Login />} />
           <Route
-            path="/dashboard"
+            path="/Userhome"
             element={
               <ProtectedRoute>
                 <Layout>
-                  <Dashboard />
+                  <UserHome />
                 </Layout>
               </ProtectedRoute>
             }

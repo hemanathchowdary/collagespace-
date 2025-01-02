@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import Navbar from './components/Navbar';
-import Sidebar from './components/Sidebar';
+import Navbar from '../components/Navbar';
+import Sidebar from '../components/Sidebar';
 
-function () {
+function UserHome() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   return (
@@ -55,4 +55,4 @@ function () {
   );
 }
 
-export default App;
+export default UserHome;
